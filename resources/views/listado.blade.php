@@ -9,6 +9,8 @@
 <body>
   <h1>Listado de Libros</h1>
     <h1>Biblioteca Virtual</h1>
+    <br>
+    <a href="{{ url ('/') }}" target="_blank"> Página Principal</a>
 <p>
         Titulo: "Frieren: Ascending to the Skies", <br>
         Autor: "Yoshitaka Amano", <br>
