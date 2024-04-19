@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra todo el texto en la página */
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  header img {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .caracteristicas {
+    margin-bottom: 30px;
+  }
+  
+  .caracteristicas ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .caracteristicas li {
+    margin-bottom: 10px;
+  }
+  
+  .llamada-accion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
