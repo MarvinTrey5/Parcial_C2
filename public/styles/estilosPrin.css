@@ -1,44 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    font-family: Arial, sans-serif;
-    text-align: center; /* Centra todo el texto en la página */
+  font-family: Arial, sans-serif;
+  text-align: center; /* Centra todo el texto en la página */
   }
-  
-  header {
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-  
-  header img {
-    width: 200px; /* Ajusta el tamaño de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-bottom: 10px;
-  }
-  
+header{
+  background-color: darkgreen;
+  border: 2.5px solid white;
+}
+header h1{
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+header h2{
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+header img{
+  margin-left: 2%;
+  width: 5%;
+  border-radius: 10%;
+}
+nav{
+  background-color: darkgreen;
+  min-height: 2em;
+  padding: 1.5em;
+  text-align: center;
+  border: 2.5px solid white;
+}
+nav li{
+  display: inline;
+  padding: 0.7em;
+}
+nav a{
+  padding: 1.0em;
+  color: black;
+  background-color: white;
+  margin: 0.3;
+  text-decoration: white;
+  border-radius: 3px 30%;
+  border: 3px solid white;
+}
+nav a:hover{
+  padding: 1.0em;
+  color: white;
+  background-color: red;
+  /* Margen a fuera tendrá */
+  margin: 0.3;
+  /*Elimina el subrayado del vinculo*/
+  text-decoration: yellow;
+  border-radius: 3px 30%;
+  border: 3px solid black;
+}
   h1 {
     font-size: 24px;
     margin-bottom: 5px;
   }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  .caracteristicas {
-    margin-bottom: 30px;
-  }
-  
-  .caracteristicas ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .caracteristicas li {
-    margin-bottom: 10px;
-  }
-  
   .llamada-accion {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  section {
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+section span{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+section strong{
+    color: #080db0;
+    text-shadow: 2px 2px 4px #000010;
+}
+section img{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px 20%;
+    box-shadow: 4px 3px 4px black;
+}
+section h2{
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+    color: #000000;
+    font-size: 1.2em;
+    font-family: cursive;
+    background-color: aqua;
+    border-radius: 15%;
+    border: 3px solid #000000;
+    box-shadow: 1px 1px 1px black;
+    width: 55%;
+}
+
+/*Elementos de los article*/
+article{
+    margin: 0.5em 3em;
+    padding: 0.5em 2em;
+    background-color: #ffffff;
+}
+article {
+  text-align: justify;
+  padding: 2%;
+}
+#parrafo{
+  border: 3px solid black;
+  text-align: justify;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+.datos{
+  border: 3px solid black;
+  text-align: justify;
+  padding: 2%;
+}
+.color{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-height: 800px;
+  background: aqua;
+  border-radius: 15%;
+}
+.imagen1{
+  position: relative;
+  left: 0;
+  width: 180px;
+  border-radius: 16px;
+  height: 360px;
+  overflow: hidden;
+  transition: 0.4 ease-in-out;
+  box-shadow: 0 5px 12px rgb(0,0,0,0.5);
+  flex: 0.25;
+}
+.imagen1 img{
+  width: 100%;
+  height: 100%;
+}
+.imagen1 h3 {
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  color: black;
+  z-index: 10;
+  left: 50%;
+  top: calc(90% - 16px);
+  font-size: 22px;
+  transform: translate(-50%, -50%);
+}
+footer{
+  padding: 3%;
+  background-color: darkgreen;
+  border: 2.5px solid white;
+  text-align: center;
+  color: white;
+}
+footer span{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-style: oblique;
+}
