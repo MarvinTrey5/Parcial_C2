@@ -15,7 +15,7 @@
   </header>
   <nav>
         <ul>
-            <li><a href="{{ url ('/listado') }}" target="_self" class="btn btn-explorar">Explora nuestra colección</a></li>
+            <li><a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a></li>
         </ul>
     </nav>
     <section>
@@ -55,57 +55,83 @@
               </label>
             </div>
         </article>
-            <main class="color">
-              <h1>TOPS DE TOMOS DE NUESTRA BIBLIOTECA</h1>
-              <div class="galeria">
-                <article class="imagen1">
-                  <figure>
-                    <img 
-                      src="https://www.figurasmranime.cl/wp-content/uploads/2022/12/jujutsu-kaisen-tomo004.png"> 
-                      <h3>Jujutsu Kaisen</h3>
-                  </figure>
-                </article>
-                <article class="imagen1">
-                  <figure>
-                    <img 
-                      src="https://images.cdn3.buscalibre.com/fit-in/360x360/e4/1d/e41d16f1a9d0822c4baaa864c1f8a22d.jpg"> 
-                      <h3>Frieren: Ascending to the Skies</h3>
-                  </figure>
-                </article>
-                <article class="imagen1">
-                  <figure>
-                    <img 
-                      src="https://m.media-amazon.com/images/I/81bfP2ZLKqL._AC_UF1000,1000_QL80_.jpg"> 
-                      <h3>Kimetsu No Yaiba</h3>
-                  </figure>
-                </article>
-              </div>
-            </main>
-        <main class="color">
-              <div class="galeria">
-                <article class="imagen1">
-                  <figure>
-                    <img 
-                      src="https://m.media-amazon.com/images/I/91vMRinz5vL._SL1500_.jpg"> 
-                      <h3>Fate Zero</h3>
-                  </figure>
-                </article>
-                <article class="imagen1">
-                  <figure>
-                    <img 
-                      src="https://m.media-amazon.com/images/I/71xOnCxDTgL._AC_UF1000,1000_QL80_.jpg"> 
-                      <h3>FullMetal Alchemist Brothehood</h3>
-                  </figure>
-                </article>
-                <article class="imagen1">
-                  <figure>
-                    <img 
-                      src="https://m.media-amazon.com/images/I/A1vTNRncVyL._AC_UF1000,1000_QL80_.jpg"> 
-                      <h3>One Piece</h3>
-                  </figure>
-                </article>
-              </div>
-          </main>
+        <div>
+          <h4>TOP DE NUESTRA BIBLIOTECA VIRTUAL</h4>
+        </div>
+        <main>
+          <div class="card">
+            <img src="https://www.figurasmranime.cl/wp-content/uploads/2022/12/jujutsu-kaisen-tomo004.png"> 
+            <div class="info">
+              <h3>Jujutsu Kaisen</h3>
+              <p>
+                Yuji Itadori se traga un dedo maldito para salvar a alguien de su clase y ahora Ryomen Sukuna, un poderoso hechicero malvado conocido como el Rey de las 
+                Maldiciones, vive en su alma. Las maldiciones son seres sobrenaturales creadas a partir de las emociones negativas de los humanos. Esta energía maldita 
+                puede usarse como fuente de poder por parte de los hechiceros y de los espíritus malditos.
+              </p>
+              <a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/e4/1d/e41d16f1a9d0822c4baaa864c1f8a22d.jpg"> 
+            <div class="info">
+              <h3>Frieren: Ascending to the Skies</h3>
+              <p>
+                La maga Frieren formaba parte del grupo del héroe Himmel, quienes derrotaron al Rey Demonio tras un viaje de 10 años y devolvieron la paz al reino. 
+                Frieren es una elfa de más de mil años de vida, así que al despedirse de Himmel y sus compañeros promete que regresará para verlos y parte de viaje 
+                sola.
+              </p>
+              <a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/81bfP2ZLKqL._AC_UF1000,1000_QL80_.jpg"> 
+            <div class="info">
+              <h3>Kimetsu No Yaiba</h3>
+              <p>
+                Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida vendiendo carbón, descubre un día que su familia ha sido asesinada por un 
+                demonio. Para empeorar las cosas, su hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación en demonio.
+              </p>
+              <a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a>
+            </div>
+          </div>
+        </main>
+        <main>
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/91vMRinz5vL._SL1500_.jpg"> 
+            <div class="info">
+              <h3>Fate Zero</h3>
+              <p>
+              Se trata de un mundo paralelo dentro de la línea temporal de Fate. Este animese centra en la Tercera Guerra por el Santo Grial y las cosas que 
+              suceden harían que la Cuarta Guerra no ocurriera, por lo tanto esta cronología estaría mal –lo bueno es que no es así.
+              </p>
+              <a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.manga-news.com/public/images/vols/Boku-no-Kokoro-no-Yabai-Yatsu-3-jp.jpg"> 
+            <div class="info">
+              <h3>Boku no Kokoro no Yabai Yatsu</h3>
+              <p>
+                Ichikawa es un estudiante de secundaria de actitud sombría al que le fastidia todo. Yamada, por su parte, es una amante de las golosinas 
+                que irradia por todo lo alto. ¿Será Yamada la luz de Ichikawa necesita para salir de las manos de las sombreas? ¡¡Una comedia romántica 
+                entre dos polos opuestos!!
+              </p>
+              <a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://d3tvwjfge35btc.cloudfront.net/Assets/29/007/L_p1005100729.jpg"> 
+            <div class="info">
+              <h3>Naruto</h3>
+              <p>
+              Naruto Uzumaki es un niño marginado en la aldea ninja en la que vive. En su interior reside el poder de una bestia que estuvo al borde de 
+              destruir el pueblo años atrás, el Kyubi, el zorro de nueve colas, lo que hace que nadie quiera acercarse a él por considerarlo maldito. 
+              Pese a su soledad y su tristeza, Naruto quiere ser un ninja, pero no uno cualquiera: quiere ser Hokage, el líder de la aldea
+              </p>
+              <a href="{{ url ('/listado') }}" target="_self" class="explorar">Explora nuestra colección</a>
+            </div>
+          </div>
+        </main>
   <footer>
    <span>
     UNIVERSIDAD GERARDO BARRIOS
